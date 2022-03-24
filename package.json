@@ -1,6 +1,6 @@
 {
   "name": "@midnight-city/emojid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generate ID's the right way",
   "main": "lib/emojid.min.js",
   "types": "lib/emojid.d.ts",
@@ -15,8 +15,8 @@
     "test": "jest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write .",
+    "prettier": "prettier --check src/",
+    "prettier:fix": "prettier --write src/",
     "pretty": "yarn prettier:fix && yarn lint:fix"
   },
   "repository": {
