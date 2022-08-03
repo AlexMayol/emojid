@@ -1,6 +1,6 @@
 {
   "name": "@midnight-city/emojid",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Generate ID's the right way",
   "main": "lib/emojid.min.js",
   "types": "lib/emojid.d.ts",
