@@ -2,10 +2,11 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "commonjs",
+    "strict": true,
     "declaration": true,
-    "outDir": "./dist",
-    "strict": true
+    "declarationDir": "lib/types",
+    "emitDeclarationOnly": true
   },
   "include": ["src/**/*"],
-  "exclude": ["tests/**/*.test.*"]
+  "exclude": ["src/**/*.test.*"]
 }

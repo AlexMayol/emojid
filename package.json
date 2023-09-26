@@ -9,10 +9,9 @@
     "lib"
   ],
   "scripts": {
-    "transpile": "tsc",
-    "build": "rollup --config",
-    "bundle": "yarn transpile && yarn build",
-    "test": "jest",
+    "types": "tsc",
+    "builder": "bun builder.ts",
+    "bundle": "bun builder && bun types",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check src/",
@@ -37,26 +36,11 @@
   },
   "homepage": "https://github.com/AlexMayol/emojid#readme",
   "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.0",
-    "@rollup/plugin-commonjs": "^25.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
-    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
-    "babel-jest": "^29.0.3",
-    "esbuild": "0.19.3",
     "eslint": "^8.9.0",
-    "jest": "^27.5.1",
     "prettier": "^3.0.0",
-    "rollup": "^2.68.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-dts": "^4.1.0",
-    "rollup-plugin-esbuild": "^5.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "ts-jest": "^27.1.3",
-    "typescript": "^4.5.5",
-    "ts-node": "^10.7.0"
+    "typescript": "^4.5.5"
   },
   "directories": {
     "lib": "lib"

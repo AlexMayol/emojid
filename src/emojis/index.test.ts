@@ -7,6 +7,7 @@ describe("Emoji list test suites", () => {
     expect(totalLen).toEqual(uniqueEmojis);
   });
 
+  open
   test("Every emoji has a length of 2", () => {
     emojis.forEach((emoji) => expect(emoji.length).toBe(2));
   });
