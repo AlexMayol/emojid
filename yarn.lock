@@ -1046,7 +1046,7 @@
     is-module "^1.0.0"
     resolve "^1.22.1"
 
-"@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.0.5":
+"@rollup/pluginutils@^5.0.1":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.5.tgz#bbb4c175e19ebfeeb8c132c2eea0ecb89941a66c"
   integrity sha512-6aEYR910NyP73oHiJglti74iRyOwgFU4x3meH/H8OJx6Ry0j6cOVZ5X/wTvub7G7Ao6qaHBEaNsV3GLJkSsF+Q==
@@ -1778,12 +1778,12 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.0.tgz#2b3f2aea2ffeb776477460267377dc8710faba8a"
+  integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
   dependencies:
-    ms "2.1.2"
+    ms "^2.1.3"
 
 decimal.js@^10.2.1:
   version "10.3.1"
@@ -1873,10 +1873,10 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-module-lexer@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-1.3.1.tgz#c1b0dd5ada807a3b3155315911f364dc4e909db1"
-  integrity sha512-JUFAyicQV9mXc3YRxPnDlrfBKpqt6hUYzz9/boprUJHs4e4KVr3XwOF70doO6gwXUor6EWZJAyWAfKki84t20Q==
+es-module-lexer@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-1.6.0.tgz#da49f587fd9e68ee2404fe4e256c0c7d3a81be21"
+  integrity sha512-qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==
 
 esbuild@0.25.0:
   version "0.25.0"
@@ -2221,10 +2221,10 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-get-tsconfig@^4.7.2:
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.7.2.tgz#0dcd6fb330391d46332f4c6c1bf89a6514c2ddce"
-  integrity sha512-wuMsz4leaj5hbGgg4IvDU0bqJagpftG5l5cXIAvo8uZrqn0NJqwtfupTN00VnkQJPcIRrxYrm1Ue24btpCha2A==
+get-tsconfig@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.10.0.tgz#403a682b373a823612475a4c2928c7326fc0f6bb"
+  integrity sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
@@ -3190,10 +3190,10 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-ms@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
-  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+ms@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
+  integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
 natural-compare-lite@^1.4.0:
   version "1.4.0"
@@ -3354,6 +3354,11 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
+
+pathe@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/pathe/-/pathe-2.0.2.tgz#5ed86644376915b3c7ee4d00ac8c348d671da3a5"
+  integrity sha512-15Ztpk+nov8DR524R4BF7uEuzESgzUEAV4Ah7CUMNGXdE5ELuvxElxGXndBl32vMSsWa1jpNf22Z+Er3sKwq+w==
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -3525,14 +3530,14 @@ rollup-plugin-dts@^4.1.0:
     "@babel/code-frame" "^7.18.6"
 
 rollup-plugin-esbuild@^6.0.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-esbuild/-/rollup-plugin-esbuild-6.1.1.tgz#ec1dba647dbe1974f76192c75e907aa6eb636399"
-  integrity sha512-CehMY9FAqJD5OUaE/Mi1r5z0kNeYxItmRO2zG4Qnv2qWKF09J2lTy5GUzjJR354ZPrLkCj4fiBN41lo8PzBUhw==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-esbuild/-/rollup-plugin-esbuild-6.2.0.tgz#48d3a4eb5cef3098db78170e72601983c25c55cc"
+  integrity sha512-LbkHaCahA6ceyWzAd6md2yajNS+HfZmZ5o58ShkZp0cQeZOnZECG2D2xWFNBq5SF6X6pfMK2udkZ+wRtvpzyVQ==
   dependencies:
-    "@rollup/pluginutils" "^5.0.5"
-    debug "^4.3.4"
-    es-module-lexer "^1.3.1"
-    get-tsconfig "^4.7.2"
+    debug "^4.4.0"
+    es-module-lexer "^1.6.0"
+    get-tsconfig "^4.10.0"
+    unplugin-utils "^0.2.3"
 
 rollup-plugin-node-resolve@^5.2.0:
   version "5.2.0"
@@ -3923,6 +3928,14 @@ universalify@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.2.0.tgz#6451760566fa857534745ab1dde952d1b1761be0"
   integrity sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==
+
+unplugin-utils@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/unplugin-utils/-/unplugin-utils-0.2.3.tgz#3e30a2c58d0a4e510431990aa1156b0c43d6b6de"
+  integrity sha512-unB2e2ogZwEoMw/X0Gq1vj2jaRKLmTh9wcSEJggESPllcrZI68uO7B8ykixbXqsSwG8r9T7qaHZudXIC/3qvhw==
+  dependencies:
+    pathe "^2.0.2"
+    picomatch "^4.0.2"
 
 update-browserslist-db@^1.0.9:
   version "1.0.9"
