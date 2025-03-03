@@ -3530,14 +3530,14 @@ rollup-plugin-dts@^4.1.0:
     "@babel/code-frame" "^7.18.6"
 
 rollup-plugin-esbuild@^6.0.1:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-esbuild/-/rollup-plugin-esbuild-6.2.0.tgz#48d3a4eb5cef3098db78170e72601983c25c55cc"
-  integrity sha512-LbkHaCahA6ceyWzAd6md2yajNS+HfZmZ5o58ShkZp0cQeZOnZECG2D2xWFNBq5SF6X6pfMK2udkZ+wRtvpzyVQ==
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-esbuild/-/rollup-plugin-esbuild-6.2.1.tgz#c556195465bf452965686e0f21adfe306b90c219"
+  integrity sha512-jTNOMGoMRhs0JuueJrJqbW8tOwxumaWYq+V5i+PD+8ecSCVkuX27tGW7BXqDgoULQ55rO7IdNxPcnsWtshz3AA==
   dependencies:
     debug "^4.4.0"
     es-module-lexer "^1.6.0"
     get-tsconfig "^4.10.0"
-    unplugin-utils "^0.2.3"
+    unplugin-utils "^0.2.4"
 
 rollup-plugin-node-resolve@^5.2.0:
   version "5.2.0"
@@ -3929,10 +3929,10 @@ universalify@^0.2.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.2.0.tgz#6451760566fa857534745ab1dde952d1b1761be0"
   integrity sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==
 
-unplugin-utils@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/unplugin-utils/-/unplugin-utils-0.2.3.tgz#3e30a2c58d0a4e510431990aa1156b0c43d6b6de"
-  integrity sha512-unB2e2ogZwEoMw/X0Gq1vj2jaRKLmTh9wcSEJggESPllcrZI68uO7B8ykixbXqsSwG8r9T7qaHZudXIC/3qvhw==
+unplugin-utils@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/unplugin-utils/-/unplugin-utils-0.2.4.tgz#56e4029a6906645a10644f8befc404b06d5d24d0"
+  integrity sha512-8U/MtpkPkkk3Atewj1+RcKIjb5WBimZ/WSLhhR3w6SsIj8XJuKTacSP8g+2JhfSGw0Cb125Y+2zA/IzJZDVbhA==
   dependencies:
     pathe "^2.0.2"
     picomatch "^4.0.2"
